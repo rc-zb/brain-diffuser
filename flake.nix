@@ -13,6 +13,7 @@
         name = "brain-diffuser";
         packages = with pkgs; [
           (python3.withPackages (ps: with ps; [
+            clip
             easydict
             einops
             fsspec
