@@ -15,15 +15,22 @@
           (python3.withPackages (ps: with ps; [
             easydict
             einops
+            fsspec
+            gradio
             h5py
+            huggingface-hub
             imageio
             matplotlib
             mpi4py
             nibabel
             numpy
+            omegaconf
+            open-clip-torch
+            opencv4
             pillow
             pyyaml
             scikit-image
+            scikit-learn
             scipy
             tensorboard
             tensorboardx
@@ -32,8 +39,7 @@
             torchvision
             tqdm
             transformers
-            omegaconf
-            opencv4
+            webdataset
           ]))
         ];
       };
